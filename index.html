@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-03</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+   
+    <!-- google font -->
+    <!-- Coustom Style -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'color-primary': '#FF4240',
+              }
+            }
+          }
+        }
+      </script>
+    <!-- Coustom Style -->
+
+</head>
+<body>
+    <header>
+<!-- nav start -->
+<nav>
+    <div class="navbar bg-base-100">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a class="text-color-primary">Home</a></li>
+          <li>
+            
+        
+          </li>
+          <li><a>About</a></li>
+          <li><a>Pages</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <a class="text-4xl font-bold">Hockey<span class="text-4xl text-color-primary">’</span>s</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a class="text-color-primary">Home</a></li>
+        <li><a>About</a></li>
+        <li><a>Pages</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn bg-color-primary text-white font-semibold">Get Ticket</a>
+    </div>
+  </div>
+</nav>
+<!-- nav end -->
+<!-- nav BG Swip image STRT -->
+<div class="carousel w-full">
+    <!-- Slide img 1 -->
+    <div id="slide1" class="carousel-item relative w-full">
+       <!-- <div style="background-image: url('./Images/1.png'); " class="w-full mx-2 my-6 bg-no-repeat"></div> -->
+      <img src="./Images/1.png" class="w-full mx-2 my-6" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            
+            <a href="#slide4" class="btn btn-circle bg-gray-300">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-gray-300">❯</a>
+        </div>
+    </div>
+
+    <!-- Slide img 2 -->
+    <div id="slide2" class="carousel-item relative w-full">
+      <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full mx-2 my-6" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide1" class="btn btn-circle bg-gray-300">❮</a> 
+        <a href="#slide3" class="btn btn-circle bg-gray-300">❯</a>
+      </div>
+    </div>  
+    <!-- Slide img 3 -->
+    <div id="slide3" class="carousel-item relative w-full">
+      <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full mx-2 my-6" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide2" class="btn btn-circle bg-gray-300">❮</a> 
+        <a href="#slide4" class="btn btn-circle bg-gray-300">❯</a>
+      </div>
+    </div>
+    <!-- Slide img 4 -->
+    <div id="slide4" class="carousel-item relative w-full">
+      <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full mx-2 my-6" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide3" class="btn btn-circle bg-gray-300">❮</a> 
+        <a href="#slide1" class="btn btn-circle bg-gray-300">❯</a>
+      </div>
+    </div>
+  </div>
+<!-- nav BG Swip image END -->
+    </header>
+
+
+
+<main>
+<!-- percentance sectin -->
+<div class="text-center my-5 py-6 border-y border-dashed border-neutral-500 "><!--Proesional Hck Club Text HEAD LINE -->
+    <p class="text-3xl font-semibold leading-10 mx-2">Professional Hockeys Club</p>
+    <p class="text-base text-inherit mt-3 ">Dit amet consectetur. Condimentum dignissim <br>adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
+</div>
+
+<div class="lg:flex  justify-evenly" >
+       
+        <!--percnt dv 01 strt-->
+    <div class="my-6">
+        <div class="flex flex-col justify-center items-center ">
+            <div class="radial-progress text-emerald-400 " style="--value:90;" role="progressbar">95%</div>
+            <p class="text-2xl font-medium text-center">Prayer Facility</p>
+            <p class="text-base text-inherit text-center">Amet consectetur. Condimentum<br>dignissim adipiscing .</p>
+        </div>
+        <div></div>
+        <div></div>
+    </div><!--percnt 01 END dv-->
+    <!--percnt dv 02 strt-->
+    <div class="my-6">
+        <div class="flex flex-col justify-center items-center ">
+            <div class="radial-progress text-yellow-400 " style="--value:80;" role="progressbar">90%</div>
+            <p class="text-2xl font-medium text-center">Experienced Coach</p>
+            <p class="text-base text-inherit text-center">Amet consectetur. Condimentum<br>dignissim adipiscing .</p>
+        </div>
+        <div></div>
+        <div></div>
+    </div><!--percnt 02 END dv-->
+    <!--percnt dv 03 strt-->
+    <div class="my-6">
+        <div class="flex flex-col justify-center items-center ">
+            <div class="radial-progress text-sky-400 " style="--value:70;" role="progressbar">80%</div>
+            <p class="text-2xl font-medium">Senior Player</p>
+            <p class="text-base text-inherit text-center">Amet consectetur. Condimentum<br>dignissim adipiscing .</p>
+        </div>
+        <div></div>
+        <div></div>
+    <!--percnt 03 END dv-->
+</div>
+</div>
+<!-- percentance sectin finished -->
+
+<div class="text-center my-5 py-6  border-y border-dashed border-neutral-500 "> <!--Program Text HEAD LINE -->
+    <p class="text-3xl font-semibold leading-10 mx-2">Program Sections</p>
+    <p class="text-base text-inherit mt-3 ">Dit amet consectetur. Condimentum dignissim <br>adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
+</div>
+<!-- grid -->
+<div class=" lg:grid grid-cols-2 justify-center items-center gap-8">
+        <div class="card w-full  shadow-none image-full my-4">
+            <figure><img src="./Images/2.png" alt="Shoes" class="w-full"/></figure>
+            <div class="card-body">
+            <h2 class="card-title">Junior Program</h2>
+            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <div class="caret-red-100 justify-start">
+                <button class="btn btn-active btn-secondary btn bg-color-primary border-none">Register Now!</button>
+            </div>
+            </div>
+        </div>
+        <div class="card  shadow-none image-full my-4">
+            <figure><img src="./Images/3.png" alt="Shoes" class="w-full" /></figure>
+            <div class="card-body">
+            <h2 class="card-title">Teenager Program</h2>
+            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <div class="caret-red-100 justify-start">
+                <button class="btn btn-active btn-secondary btn bg-color-primary border-none">Register Now!</button>
+            </div>
+            </div>
+        </div>
+        <div class="card   shadow-none image-full  col-span-2 my-4">
+            <figure><img src="./Images/4.png" alt="Shoes" class="w-full" /></figure>
+            <div class="card-body">
+            <h2 class="card-title">Professional Program</h2>
+            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <div class="caret-red-100 justify-start">
+                <button class="btn btn-active btn-secondary btn bg-color-primary border-none">Register Now!</button>
+            </div>
+            </div>
+        </div>
+
+</div>
+
+<div class="text-center my-5  py-6 border-y border-dashed border-neutral-500 "><!--New prdct Text HEAD LINE -->
+  <p class="text-3xl font-semibold leading-10 mx-2">Our New Products</p>
+  <p class="text-base text-inherit mt-3 ">Dit amet consectetur. Condimentum dignissim <br>adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
+</div>
+
+
+<div class=" lg:grid grid-cols-2 gap-9 my-9"><!-- main rate div -->
+    <div class=" my-6 lg:my-0 flex gap-4 p-8 border border-solid border-slate-400 rounded-xl  "><!-- red Jacket  product rating images-->
+        <div> <!-- ima div -->
+          <img src="./Images/5.png" alt="" srcset="">
+        </div>
+
+        <div class="block items-center justify-center  "><!--Right rtig,titl,txt pric:fee Dv -->
+              <div class="flex gap-2 mb-3"><!-- Line 01 Dv -->
+                  <div class="rating"><input type="radio" name="rating-1" class="mask mask-star bg-orange-500" /></div>
+                  <p class="text-gray-500 mr-1.5">5.0</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_207)">
+                            <path d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_207">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                  <p class="text-gray-500  mr-1.5">20</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_211)">
+                            <path d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_211">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="text-gray-500">200</p>
+              </div>  
+              <div class="mb-3"><!-- Line 02 Dv -->
+                <p class="text-2xl font-semibold leading-relaxed">World Cup Flags Football</p>
+                <p class="text-gray-500 text-base w-64 ">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div> 
+              <div class="flex gap-1.5 mt-4"><!-- Line 03 prce dlvry : fee Dv -->
+                <p class="text-color-primary font-extrabold mr-2">Price - $22.00</p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <g clip-path="url(#clip0_7_298)">
+                              <path d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_7_298">
+                                <rect width="24" height="24" fill="white" transform="translate(0 -0.000732422)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                <p class="text-gray-500 text-base font-medium">Delivery Fee : Fee</p>
+              </div>
+        </div>
+      
+    </div>  
+    <div class=" my-6 lg:my-0  flex gap-4 p-8 border border-solid border-slate-400 rounded-xl"><!-- green Eagals product rating images  -->
+        <div> <!-- ima div -->
+          <img src="./Images/6.png" alt="" srcset="">
+        </div>
+
+        <div class="block items-center justify-center  "><!--Right rtig,titl,txt pric:fee Dv -->
+              <div class="flex gap-2 mb-3"><!-- Line 01 Dv -->
+                  <div class="rating"><input type="radio" name="rating-1" class="mask mask-star bg-orange-500" /></div>
+                  <p class="text-gray-500 mr-1.5">5.0</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_207)">
+                            <path d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_207">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                  <p class="text-gray-500  mr-1.5">20</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_211)">
+                            <path d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_211">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="text-gray-500">200</p>
+              </div>  
+              <div class="mb-3"><!-- Line 02 Dv -->
+                <p class="text-2xl font-semibold leading-relaxed">World Cup Flags Football</p>
+                <p class="text-gray-500 text-base w-64 ">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div> 
+              <div class="flex gap-1.5 mt-4"><!-- Line 03 prce dlvry : fee Dv -->
+                <p class="text-color-primary font-extrabold mr-2">Price - $22.00</p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <g clip-path="url(#clip0_7_298)">
+                              <path d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_7_298">
+                                <rect width="24" height="24" fill="white" transform="translate(0 -0.000732422)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                <p class="text-gray-500 text-base font-medium">Delivery Fee : Fee</p>
+              </div>
+        </div>
+      
+    </div>  
+    <div class=" my-6 lg:my-0  flex gap-4 p-8 border border-solid border-slate-400 rounded-xl"><!--  Yellow Capproduct rating images -->
+        <div> <!-- ima div -->
+          <img src="./Images/7.png" alt="" srcset="">
+        </div>
+
+        <div class="block items-center justify-center  "><!--Right rtig,titl,txt pric:fee Dv -->
+              <div class="flex gap-2 mb-3"><!-- Line 01 Dv -->
+                  <div class="rating"><input type="radio" name="rating-1" class="mask mask-star bg-orange-500" /></div>
+                  <p class="text-gray-500 mr-1.5">5.0</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_207)">
+                            <path d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_207">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                  <p class="text-gray-500  mr-1.5">20</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_211)">
+                            <path d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_211">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="text-gray-500">200</p>
+              </div>  
+              <div class="mb-3"><!-- Line 02 Dv -->
+                <p class="text-2xl font-semibold leading-relaxed">World Cup Flags Football</p>
+                <p class="text-gray-500 text-base w-64 ">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div> 
+              <div class="flex gap-1.5 mt-4"><!-- Line 03 prce dlvry : fee Dv -->
+                <p class="text-color-primary font-extrabold mr-2">Price - $22.00</p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <g clip-path="url(#clip0_7_298)">
+                              <path d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_7_298">
+                                <rect width="24" height="24" fill="white" transform="translate(0 -0.000732422)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                <p class="text-gray-500 text-base font-medium">Delivery Fee : Fee</p>
+              </div>
+        </div>
+      
+    </div>  
+    <div class=" my-6 lg:my-0  flex gap-4 p-8 border border-solid border-slate-400 rounded-xl"><!-- Jersy product rating images -->
+        <div> <!-- ima div -->
+          <img src="./Images/8.png" alt="" srcset="">
+        </div>
+
+        <div class="block items-center justify-center "><!--Right rtig,titl,txt pric:fee Dv -->
+              <div class="flex gap-2 mb-3"><!-- Line 01 Dv -->
+                  <div class="rating"><input type="radio" name="rating-1" class="mask mask-star bg-orange-500" /></div>
+                  <p class="text-gray-500 mr-1.5">5.0</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_207)">
+                            <path d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_207">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                  <p class="text-gray-500  mr-1.5">20</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_211)">
+                            <path d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_211">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="text-gray-500">200</p>
+              </div>  
+              <div class="mb-3"><!-- Line 02 Dv -->
+                <p class="text-2xl font-semibold leading-relaxed">World Cup Flags Football</p>
+                <p class="text-gray-500 text-base w-64 ">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div> 
+              <div class="flex gap-1.5 mt-4"><!-- Line 03 prce dlvry : fee Dv -->
+                <p class="text-color-primary font-extrabold mr-2">Price - $22.00</p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <g clip-path="url(#clip0_7_298)">
+                              <path d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_7_298">
+                                <rect width="24" height="24" fill="white" transform="translate(0 -0.000732422)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                <p class="text-gray-500 text-base font-medium">Delivery Fee : Fee</p>
+              </div>
+        </div>
+      
+    </div>  
+    <div class=" my-6 lg:my-0  flex gap-4 p-8 border border-solid border-slate-400 rounded-xl"><!-- Healmate product rating images -->
+        <div> <!-- ima div -->
+          <img src="./Images/9.png" alt="" srcset="">
+        </div>
+
+        <div class="block items-center justify-center  "><!--Right rtig,titl,txt pric:fee Dv -->
+              <div class="flex gap-2 mb-3"><!-- Line 01 Dv -->
+                  <div class="rating"><input type="radio" name="rating-1" class="mask mask-star bg-orange-500" /></div>
+                  <p class="text-gray-500 mr-1.5">5.0</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_207)">
+                            <path d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_207">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                  <p class="text-gray-500  mr-1.5">20</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_211)">
+                            <path d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_211">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="text-gray-500">200</p>
+              </div>  
+              <div class="mb-3"><!-- Line 02 Dv -->
+                <p class="text-2xl font-semibold leading-relaxed">World Cup Flags Football</p>
+                <p class="text-gray-500 text-base w-64 ">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div> 
+              <div class="flex gap-1.5 mt-4"><!-- Line 03 prce dlvry : fee Dv -->
+                <p class="text-color-primary font-extrabold mr-2">Price - $22.00</p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <g clip-path="url(#clip0_7_298)">
+                              <path d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_7_298">
+                                <rect width="24" height="24" fill="white" transform="translate(0 -0.000732422)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                <p class="text-gray-500 text-base font-medium">Delivery Fee : Fee</p>
+              </div>
+        </div>
+      
+    </div>  
+    <div class=" my-6 lg:my-0  flex gap-4 p-8 border border-solid border-slate-400 rounded-xl"><!-- Football product rating images -->
+        <div> <!-- ima div -->
+          <img src="./Images/10.png" alt="" srcset="">
+        </div>
+
+        <div class="block items-center justify-center  "><!--Right rtig,titl,txt pric:fee Dv -->
+              <div class="flex gap-2 mb-3"><!-- Line 01 Dv -->
+                  <div class="rating"><input type="radio" name="rating-1" class="mask mask-star bg-orange-500" /></div>
+                  <p class="text-gray-500 mr-1.5">5.0</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_207)">
+                            <path d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_207">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                  <p class="text-gray-500  mr-1.5">20</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <g clip-path="url(#clip0_6_211)">
+                            <path d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777" stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_6_211">
+                              <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                        <p class="text-gray-500">200</p>
+              </div>  
+              <div class="mb-3"><!-- Line 02 Dv -->
+                <p class="text-2xl font-semibold leading-relaxed">World Cup Flags Football</p>
+                <p class="text-gray-500 text-base w-64 ">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              </div> 
+              <div class="flex gap-1.5 mt-4"><!-- Line 03 prce dlvry : fee Dv -->
+                <p class="text-color-primary font-extrabold mr-2">Price - $22.00</p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <g clip-path="url(#clip0_7_298)">
+                              <path d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_7_298">
+                                <rect width="24" height="24" fill="white" transform="translate(0 -0.000732422)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                <p class="text-gray-500 text-base font-medium">Delivery Fee : Fee</p>
+              </div>
+        </div>
+      
+    </div>  
+</div>
+
+
+<div class="text-center my-5 py-6 border-y border-dashed border-neutral-500  ">  <!-- Client HEAD LINE Text -->
+  <p class="text-3xl font-semibold leading-10 mx-2">Our New Products</p>
+  <p class="text-base text-inherit mt-3 ">Dit amet consectetur. Condimentum dignissim <br>adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
+</div>
+
+<div class=" border border-solid border-slate-400 rounded-xl justify-center items-center m-9 p-8 lg:flex gap-5"><!--FAQ Dv MaiN-->
+      <div class="justify-center"><img src="./Images/11.png" alt="" srcset=""></div>
+
+      <div class="divide-y divide-solid"> <!--FaQ-->
+                <div class="collapse collapse-plus ">
+                  <input type="radio" name="my-accordion-3" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Our Equipment
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus ">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Hockey Training
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus  ">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Private Lessons
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus  ">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Ski Touring
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus  ">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Booking
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus   ">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Pricings
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div><!--faq end-->
+        </div>
+
+</div>
+
+<div class="text-center my-5 py-6 border-y border-dashed border-neutral-500  ">  <!-- Get in Touch HEAD LINE Text -->
+  <p class="text-3xl font-semibold leading-10 mx-2">Our New Products</p>
+  <p class="text-base text-inherit mt-3 ">Dit amet consectetur. Condimentum dignissim <br>adipiscing aliquam turpis placerat dolor. <br> Purus urna in sit nullam proin. </p>
+</div>
+
+<div class="lg:flex "><!--Main CALL SMS LOCATION FORM  div-->
+    <div class="border border-solid border-slate-500 rounded-2xl p-6 m-9 lg:w-5/12"><!--sms cll dv-->
+        <div class="bg-green-200 rounded-2xl p-8 m-6 ">
+          <img src="./Images/Group 1171275317.png" alt="" srcset="" class="mt-3">
+          <p class="text-base text-gray-500 mt-5">Phone Number :</p>
+          <p class="text-base font-bold mt-3">(+62) 124-245-189</p>
+        </div>
+        
+        <div class="bg-amber-200 rounded-2xl p-8  m-6">
+          <img src="./Images/Group 1171275318.png" alt="" srcset="" class="mt-3">
+          <p class="text-base text-gray-500 mt-5">Email :</p>
+          <p class="text-base font-bold mt-3">hockeys@support.com</p>
+        </div>
+
+        <div class="bg-sky-200 rounded-2xl p-8  m-6">
+          <img src="./Images/Group 1171275321.png" alt="" srcset="" class="mt-3">
+          <p class="text-base text-gray-500 mt-5">Location :</p>
+          <p class="text-base font-bold mt-3">420/Banani Doller gate</p>
+        </div>
+
+    </div>
+
+    <div class=" lg:grid grid-cols-2 gap-8 w-7/12"><!--send Message dv-->
+        <div class="w-full"><!--Your nam inpt-->
+                <div class="label">
+                <span class="label-text text-lg font-bold">Your Name</span>
+                </div>
+                <input type="text" placeholder="Enter your full name" class="input  w-full max-w-xs bg-gray-200" />
+        </div>
+
+        <div><!--Your email inpt-->
+                <div class="label">
+                <span class="label-text text-lg font-bold">Your Email</span>
+                </div>
+                <input type="text" placeholder="Enter your Email" class="input  w-full max-w-xs bg-gray-200" />
+        </div>
+
+        <div><!--Subject inpt-->
+                <div class="label">
+                <span class="label-text text-lg font-bold">Subject</span>
+                </div>
+                <input type="text" placeholder="Enter your Subject" class="input  w-full max-w-xs bg-gray-200" />
+        </div>
+
+        <div>     <!--Phone Nuber inpt-->       
+                <div class="label">
+                <span class="label-text text-lg font-bold">Phone Number</span>
+                </div>
+                <input type="text" placeholder="Enter your Phone Number" class="input  w-full max-w-xs bg-gray-200" />
+        </div>
+
+        <div class="col-span-2 ">  <!--Message inpt-->
+                <div class="label">
+                <span class="label-text text-lg font-bold">Message</span>
+                </div>
+                <input type="text" placeholder="Write your message" class="input pt-none h-80 w-full  bg-gray-200 " />
+        </div>
+
+
+        <div class="col-span-2" >
+                <button class=" btn btn-block bg-color-primary text-white font-semibold">Send Message</button>
+        </div>
+       
+              
+              
+              
+  
+            
+                
+              
+</div>
+  </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
